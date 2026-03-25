@@ -41,11 +41,11 @@ export default function Reviewpage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-100 text-black">
+    <div className="min-h-screen bg-slate-100  ">
       
      {/* --- HERO BANNER --- */}
-  <header className="px-6 py-10">
-  <section className="relative w-full max-w-[1400px] mx-auto h-[580px] bg-[#FDFDFD] overflow-hidden rounded-[40px] flex items-center px-12 shadow-sm group">
+  <header className="px-6 py-10 ">
+  <section className="relative w-full max-w-[1400px] mx-auto h-[580px] bg-[#FDFDFD] overflow-hidden rounded-[40px] flex items-center px-12 shadow-sm group bg-slate-100">
     
     {/* Background Decorative Element */}
     <div className="absolute -left-20 top-0 w-[500px] h-[500px] border border-gray-100 rounded-full opacity-50" />
@@ -53,14 +53,14 @@ export default function Reviewpage() {
     <div className="grid grid-cols-1 md:grid-cols-2 w-full z-10 items-center">
       
       {/* Left Side: Image Showcase */}
-      <div className="relative flex items-center justify-center h-full">
+      <div className="relative flex items-center justify-center h-full  ">
         <div className="absolute bottom-12 w-[60%] h-12 bg-black/[0.05] blur-3xl rounded-full" />
-        <div className="relative w-[450px] h-[500px] transform transition-all duration-700 group-hover:-translate-y-6">
+        <div className="relative w-[450px] h-[500px] transform transition-all duration-700 group-hover:-translate-y-6  ">
           <Image 
             src="/babypic1.jpg" 
             alt="Hero Showcase" 
             fill 
-            className="object-contain drop-shadow-2xl" 
+            className="object-contain drop-shadow-2xl  rounded-2xl " 
             priority 
           />
         </div>
