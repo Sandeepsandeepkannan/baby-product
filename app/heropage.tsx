@@ -69,10 +69,11 @@ const Heropage = () => {
           </p>
           
           <div className="pt-10 space-y-1">
-            <p className="text-gray-400 text-[10px] uppercase font-bold tracking-[0.2em]">Price starting from</p>
+            <p className="text-gray-400 text-[10px] uppercase font-bold tracking-[0.2em]"></p>
             <div className="flex items-center gap-4">
-                <span className="text-black text-6xl font-black">₹3,399</span>
-                <span className="text-gray-300 line-through text-2xl font-light italic">₹5,999</span>
+              <button className="bg-black text-white px-10 py-4 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-gray-800 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+            Shop Now
+          </button>
             </div>
           </div>
 
