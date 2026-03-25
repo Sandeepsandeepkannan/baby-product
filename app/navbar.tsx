@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* 3. Category Links - Now integrated into the main row when scrolled */}
         <div className="hidden md:flex items-center gap-6 lg:gap-8 transition-all duration-500">
-          {['New Arrivals', 'Strollers', 'Clothing', 'Furniture', 'Toys', 'Sale'].map((item) => (
+          {['New Arrivals', 'About us', 'Products', 'Services', 'Contact us'].map((item) => (
             <a 
               key={item} 
               href="#" 

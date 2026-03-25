@@ -112,7 +112,7 @@ export default function Reviewpage() {
       <section className="py-24 bg-slate-100 px-6 overflow-hidden">
         <div className="max-w-[1400px] mx-auto relative">
           <div className="flex items-center justify-between mb-12">
-            <h2 className="text-4xl font-black uppercase tracking-tighter">Parents Trust Us</h2>
+            <h2 className="text-4xl text-black font-black uppercase tracking-tighter">Parents Trust Us</h2>
             
             {/* Slider Dots */}
             <div className="flex gap-2">
@@ -141,7 +141,7 @@ export default function Reviewpage() {
                     <p className="text-sm text-gray-500 italic mb-8">"{t.text}"</p>
                     <div className="flex items-center gap-4">
                       <img src={t.img} className="w-10 h-10 rounded-full object-cover" alt={t.name} />
-                      <span className="text-[11px] font-black uppercase tracking-widest">{t.name}</span>
+                      <span className="text-[11px] text-black font-black uppercase tracking-widest">{t.name}</span>
                     </div>
                   </div>
                 ))}
